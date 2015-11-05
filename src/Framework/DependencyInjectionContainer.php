@@ -5,10 +5,9 @@ namespace Framework;
 class DependencyInjectionContainer
 {
     /**
-     *
      * @var mixed
      */
-    protected $data = array();
+    private $data = array();
 
     /**
      * @param string $id

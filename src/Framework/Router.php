@@ -69,12 +69,11 @@ class Router
         throw new Exception("No route matched!");
     }
 
-    /**
-     * Short description for Function
+     /**
      *
-     * @param $controller
-     * @param $action
-     * @param $arguments
+     * @param string $controller
+     * @param string $action
+     * @param array  $arguments
      *
      * @return Route
      */
